@@ -13,6 +13,6 @@
 // pratiksha=1
 
 let someNumber=3
-let stringNumber=String(someNumber)
-console.log(stringNumber)
-console.log(typeof stringNumber)
+let stringnumber=String(someNumber)
+console.log(stringnumber)
+console.log(typeof stringnumber)
