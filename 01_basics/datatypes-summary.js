@@ -1,4 +1,4 @@
-//Primitive
+//Primitive:
 // String 
 // Number
 // BigInt
@@ -9,31 +9,47 @@
 
 
 
-const id=Symbol('123')
-const anotherId=Symbol('123')
-console.log(id===anotherId); //false bcz every symbol has unique value
+// const id=Symbol('123')
+// const anotherId=Symbol('123')
+// console.log(id===anotherId); //false bcz every symbol has unique value
 
-const a=1;
-const b=1;
-console.log(a===b);//true bcz both are of same type i.e int and have same value
+// const a=1;
+// const b=1;
+// console.log(a===b);//true bcz both are of same type i.e int and have same value
 
 //Reference Non-Primitive
 // Objects
 // Array
 // Functions
 
-let myObj={
-    name:"Pratiksha",
-    age:21,
-}  //object
+// let myObj={
+//     name:"Pratiksha",
+//     age:21,
+// }  //object
 
-const heros=["shaktiman","bheem","baalveer"];//Array
+// const heros=["shaktiman","bheem","baalveer"];//Array
 
-const myFunction=function(){
-    console.log("Hello world")
+// const myFunction=function(){
+//     console.log("Hello world")
+// }
+
+// console.log(typeof myObj)
+// console.log(typeof heros)
+// console.log(heros)   //datatypes of non premitives is always a object
+// console.log(typeof anotherId)
+
+// -------------------------------*----------------------------
+
+//Stack(Primitive)
+// Heap(Non-primitive)
+
+let userone={
+    email: "google.com",
+    upi: "gle123"
 }
 
-console.log(typeof myObj)
-console.log(typeof heros)
-console.log(heros)   //datatypes of non premitives is always a object
-console.log(typeof anotherId)
+let usertwo=userone
+// usertwo.email="pratiksha.com"
+
+console.log(userone);
+console.log(usertwo.email);
