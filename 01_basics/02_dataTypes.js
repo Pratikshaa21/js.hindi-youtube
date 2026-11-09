@@ -17,7 +17,7 @@ let isLoggedIn=false
 //boolean=> true/false
 //null=> standalone value
 //undefined =>
-//symnbol =>unique
+//symbol =>unique
 //object
 
 console.log(typeof null)//output is object
