@@ -15,7 +15,7 @@
 // console.log(null>0);
 // console.log(null==0);
 
-//nul >,<,<=,>= treates the null as 0......whereas == do nit treat null as 0..that is why when 
+//null >,<,<=,>= treates the null as 0......whereas == do nit treat null as 0..that is why when 
 // 1.null<=0 true(0=0)
 // 2.null>=0 true(0=0)
 // 3.null<0 false(0 is not < 0)
